@@ -16,4 +16,14 @@ Adreça: Avinguda Major 54
 telèfon: 987654321
 email: joanfarssac@email.com
 neixement: 09-05-2004
-
+###################################################################
+![image](https://github.com/user-attachments/assets/6f1afada-e338-4db1-81ce-b0f2d3dcfed3)
+Aquest codi asigna un nou valor de telèfon (000000000) al client amb id_cliente = 1.
+Retorna un missatge indicant que l'actualització és exitosa: {"Update successfuly"}.
+###################################################################
+![image](https://github.com/user-attachments/assets/f9986fbf-0901-4d15-a836-15cee7ade577)
+Aquest codi és una funció que elimina un registre de la taula clients de la base de dades.
+Es connecta a la base de dades utilitzant la funció connection_db().
+Executa una consulta DELETE per eliminar el client 28 de la taula.
+Aplica els canvis a la base de dades amb conn.commit().
+Per últim retorna un missatge confirmant l'eliminació: {"Delete successfully"}.
