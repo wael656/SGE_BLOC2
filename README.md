@@ -7,12 +7,13 @@ En cada iteració, imprimeix les dades d'una fila en un format estructurat:
 Nom (i[1])
 Direcció (i[2])
 Teléfon (i[3])
-Email (i[4])
+Email (i[4]) 
 Data naixement (i[5])
-
+ 
 El resultat per exemple seria tal que així:
 Nom: Joan Farssac
 Adreça: Avinguda Major 54
 telèfon: 987654321
 email: joanfarssac@email.com
 neixement: 09-05-2004
+
